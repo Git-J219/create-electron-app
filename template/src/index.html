@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <!--Title-->
+    </title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
+    <link rel="stylesheet" href="codicon/codicon.css">
+    <link rel="stylesheet" href="roboto/roboto.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="app_title">
+        <div class="hide-mos" id="app_close" aria-label="Schließen" tabindex="-1" role="button">
+            <div class="codicon codicon-chrome-close"></div>
+        </div>
+        <div class="hide-mos" id="app_max" aria-label="Maximieren" tabindex="-1" role="button">
+            <div id="app_max_unmaximize" style="display: none;" class="codicon codicon-chrome-restore"></div>
+            <div id="app_max_maximize" class="codicon codicon-chrome-maximize"></div>
+        </div>
+        <div class="hide-mos" id="app_min" aria-label="Minimieren" tabindex="-1" role="button">
+            <div class="codicon codicon-chrome-minimize"></div>
+        </div>
+        <div class="dropdown hide-mos">
+            <button class="dropbtn">Dropdown
+                <!--Dropdowns-->
+                <div class="codicon codicon-triangle-down"></div>
+            </button>
+            <div class="dropdown-content">
+                <a id="menuOpenInstant" href="#">Item</a>
+                <a id="menuOpen" href="#">Item 2</a>
+                <a id="playlistExport" href="#">Item 3</a>
+                <a id="playlistImport" href="#">Item 4</a>
+                <!--
+                    Add Items here
+                -->
+            </div>
+        </div>
+        <span id="title">
+            <!--Title-->
+        </span>
+    </div>
+
+    <div id="content">
+        <!--Content here-->
+    </div>
+    <script src="inter.js">
+    </script>
+</body>
+
+</html>

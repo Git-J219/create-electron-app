@@ -1,0 +1,12 @@
+{
+  "name": "createeainternal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cea.js",
+  "author": "Git-J219",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^9.1.0"
+  },
+  "devDependencies": {}
+}
