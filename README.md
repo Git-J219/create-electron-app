@@ -1,6 +1,6 @@
 # Installation
 1. Download / clone source
-2. Go in the folder and run npm i
+2. Go in the folder and run `npm i`
 3. Add script folder to PATH
 
 # Usage
