@@ -15,6 +15,12 @@ const devDeps = [
 const dir = process.argv[2];
 const pName = process.argv[3];
 
+
+
+if (!/^[a-z0-9-~][a-z0-9-._~]*$/.test(dir)) {
+    throw new Error("Directory name did not match rules");
+}
+
 const packageJson = {
     "name": dir,
     "productName": pName,
