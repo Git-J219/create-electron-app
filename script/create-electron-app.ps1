@@ -1,5 +1,5 @@
 if($args.Count -lt 1){
-    echo Usage: create-electron-app <name> [<readable name>]
+    echo Usage: create-electron-app `<name`> [`<readable name`>]
     exit
 }
 

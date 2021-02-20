@@ -1,5 +1,5 @@
 if [ $# -lt 1 ]; then
-    echo Usage: create-electron-app <name> [<readable name>]
+    echo Usage: create-electron-app \<name\> [\<readable name\>]
     exit
 fi
 
