@@ -7,7 +7,7 @@
 `create-electron-app <name> [<readable name>]`
 
 # What the program does
-1. Copies template to <name>
+1. Copies template to \<name\>
 2. Creates package.json
 3. Installs `electron-squirrel-startup`
 4. Installs `@electron-forge/cli`, `electron` as devDependency
