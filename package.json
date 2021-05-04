@@ -6,7 +6,7 @@
   "author": "Git-J219",
   "license": "MIT",
   "dependencies": {
-    "fs-extra": "^9.1.0"
+    "fs-extra": "^10.0.0"
   },
   "devDependencies": {}
 }
